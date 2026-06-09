@@ -1,0 +1,90 @@
+{
+    "description": "Modelos Random Forest chuva-vazão separados por bacia.",
+    "version": "1.0",
+    "sites": {
+        "tricolor": {
+            "site_name": "Tricolor",
+            "p_col": "TricolorP",
+            "q_col": "TricolorV",
+            "model_file": "rf_tricolor.pkl",
+            "features": [
+                "TricolorP_lag0",
+                "TricolorP_lag1",
+                "TricolorP_lag2",
+                "TricolorP_lag3",
+                "TricolorP_lag5",
+                "TricolorP_lag7",
+                "TricolorP_lag10",
+                "TricolorP_lag14",
+                "TricolorP_sum3",
+                "TricolorP_sum5",
+                "TricolorP_sum7",
+                "TricolorP_sum14",
+                "TricolorP_sum30",
+                "TricolorV_lag1"
+            ],
+            "p_lags": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                7,
+                10,
+                14
+            ],
+            "p_windows": [
+                3,
+                5,
+                7,
+                14,
+                30
+            ],
+            "q_lags": [
+                1
+            ]
+        },
+        "piray_guazu": {
+            "site_name": "Piray Guazú",
+            "p_col": "PirayP",
+            "q_col": "PirayV",
+            "model_file": "rf_piray_guazu.pkl",
+            "features": [
+                "PirayP_lag0",
+                "PirayP_lag1",
+                "PirayP_lag2",
+                "PirayP_lag3",
+                "PirayP_lag5",
+                "PirayP_lag7",
+                "PirayP_lag10",
+                "PirayP_lag14",
+                "PirayP_sum3",
+                "PirayP_sum5",
+                "PirayP_sum7",
+                "PirayP_sum14",
+                "PirayP_sum30",
+                "PirayV_lag1"
+            ],
+            "p_lags": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                7,
+                10,
+                14
+            ],
+            "p_windows": [
+                3,
+                5,
+                7,
+                14,
+                30
+            ],
+            "q_lags": [
+                1
+            ]
+        }
+    }
+}
