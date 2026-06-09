@@ -31,7 +31,7 @@ PROJECT_CONTEXT = "Projeto desenvolvido no âmbito da UFPR"
 
 # Coloque o arquivo do logo no GitHub em: assets/logo_ufpr.png
 # Também funciona com .jpg/.jpeg, basta alterar o caminho abaixo.
-LOGO_PATH = Path("main/logo_ufpr.png")
+LOGO_PATH = Path("assets/logo_ufpr.png")
 
 # Referência bibliográfica: substitua pelo texto definitivo.
 BIBLIOGRAPHIC_REFERENCE = (
