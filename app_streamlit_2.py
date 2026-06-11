@@ -41,7 +41,7 @@ BIBLIOGRAPHIC_REFERENCE = (
 
 # Link de acesso direto: substitua pela URL do artigo, repositório, relatório ou página do projeto.
 PROJECT_LINK_LABEL = "Acesso direto ao trabalho / repositório"
-PROJECT_LINK_URL = "[INSERIR_LINK_AQUI]"
+PROJECT_LINK_URL = "[https://docs.google.com/document/d/1fPrkUIcGoGRkWsq0jZwNAIejJLbIyDH5LzQQxnO-p7A/edit?usp=sharing]"
 
 # Texto metodológico exibido no rodapé.
 METHODOLOGICAL_NOTE = (
