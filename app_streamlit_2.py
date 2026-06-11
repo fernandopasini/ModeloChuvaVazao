@@ -27,7 +27,7 @@ APP_SUBTITLE = (
     "da vazão atual e de cenários de precipitação futura."
 )
 INSTITUTION_NAME = "Universidade Federal do Paraná — UFPR"
-PROJECT_CONTEXT = "Projeto desenvolvido no âmbito da UFPR"
+PROJECT_CONTEXT = "Projeto desenvolvido para o Programa de Pós-Graduação em Engenharia e Tecnologia Ambiental – UFPR/UNIOESTE/EMBRAPA"
 
 # Coloque o arquivo do logo no GitHub em: assets/logo_ufpr.png
 # Também funciona com .jpg/.jpeg, basta alterar o caminho abaixo.
