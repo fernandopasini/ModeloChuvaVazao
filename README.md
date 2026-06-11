@@ -17,4 +17,4 @@ Aplicativo Streamlit para previsão diária de vazão usando modelos Random Fore
 Main file path: app_streamlit.py
 ```
 
-Os modelos `.pkl` são gerados no Colab pelo bloco final `apartado_final_modelos_por_bacia.txt`.
+Os modelos `.pkl` são gerados diretamento no Google Colab com o codigo completo.
