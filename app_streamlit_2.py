@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 """
 app_streamlit.py
 
@@ -11,7 +10,7 @@ da vazão atual e de cenários de precipitação futura.
 Autor: Fernando Pasini
 """
 
-from **future** import annotations
+from __future__ import annotations
 
 from datetime import date, timedelta
 from pathlib import Path
@@ -19,8 +18,6 @@ from pathlib import Path
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
-
-from funcoes_previsao import listar_sites, carregar_modelo_por_site, prever_vazao_futura
 
 # ============================================================
 
